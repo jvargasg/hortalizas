@@ -1,0 +1,18 @@
+cargos:
+    resource: "@CargosBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+venta:
+    resource: "@VentaBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+persona:
+    resource: "@PersonaBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation
